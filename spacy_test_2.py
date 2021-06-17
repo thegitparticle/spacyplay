@@ -47,4 +47,4 @@ text = st.text_area("enter your message here")
 
 if st.button("show"):
     response = keyword(text)
-    "get images and gifs for: ", st.header(response)
+    st.header(response)
