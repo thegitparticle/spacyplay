@@ -45,6 +45,8 @@ def keyword(message):
 
 text = st.text_area("enter your message here")
 
-if st.button("show"):
-    response = keyword(text)
-    "get images and gifs for: ", response
+st.write("get images and gifs for: ", keyword(text))
+
+# if st.button("show"):
+#     response = keyword(text)
+#     "get images and gifs for: ", response
